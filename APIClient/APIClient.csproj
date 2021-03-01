@@ -72,8 +72,7 @@
   <ItemGroup>
     <Compile Include="AppConfigReader.cs" />
     <Compile Include="LookUpOutwardCodeService.cs" />
-    <Compile Include="Model.cs" />
-    <Compile Include="ModelOutward.cs" />
+    <Compile Include="PostcodeIOSerivce\DataHandling\Model.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SinglePostCodeService.cs" />
@@ -82,6 +81,9 @@
     <None Include="App.config" />
     <None Include="ClassDiagram1.cd" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="PostcodeIOSerivce\HTTPManager\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

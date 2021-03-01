@@ -1,6 +1,7 @@
 ﻿using System;
 using NUnit.Framework;
 using APIClient;
+using APIClient.PostcodeIOService;
 
 namespace APITest.Tests
 {

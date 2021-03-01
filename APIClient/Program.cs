@@ -3,6 +3,7 @@ using System.Linq;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using RestSharp;
+using APIClient.PostcodeIOService;
 
 namespace APIClient
 {
